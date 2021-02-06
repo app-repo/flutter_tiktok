@@ -70,7 +70,7 @@ packages:
       name: fijkplayer
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "0.8.4"
+    version: "0.8.7"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -136,7 +136,7 @@ packages:
       name: safemap
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "1.2.1"
+    version: "1.2.2"
   sky_engine:
     dependency: transitive
     description: flutter
