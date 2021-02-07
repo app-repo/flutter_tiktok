@@ -6,15 +6,17 @@ class SelectText extends StatelessWidget {
     Key key,
     this.isSelect: true,
     this.title,
+    this.padding,
   }) : super(key: key);
 
   final bool isSelect;
   final String title;
+  final EdgeInsetsGeometry padding;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(vertical: 12),
+      padding: padding ?? EdgeInsets.symmetric(vertical: 12),
       color: Colors.black.withOpacity(0),
       child: Text(
         title ?? '??',

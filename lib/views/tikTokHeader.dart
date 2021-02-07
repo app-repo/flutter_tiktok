@@ -27,6 +27,7 @@ class _TikTokHeaderState extends State<TikTokHeader> {
             child: SelectText(
               title: list[i],
               isSelect: i == currentSelect,
+              padding: EdgeInsets.symmetric(vertical: 0),
             ),
           ),
           onTap: () {
